@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Photo Gallery</title>
+</head>
+<body>
+
+<div>
+	<h1 id="top">TK PHOTOGRAPHY</h1>
+	<nav>
+		<ul>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#gallery">GALLERY</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+			<li><a href="#top">^<br>TOP</a></li>
+		</ul>
+	</nav>
+</div>
+
+<main>
+<section class="header">
+	<img src="TK.png" alt="Me with my camera">
+	<h2 id="about">ABOUT</h2>
+	<p class="20pxleft">Hello!<br>I'm TK and I'm a photographer.<br>I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
+</section>
+
+<section class="images">
+<h2 id="gallery">GALLERY</h2>
+<p>Here are some highlights of my work. The locations and year are in the caption.</p>
+<!--1st row-->
+<figure>
+	<img src="Chile.png" alt="A beach at sunset">
+	<figcaption>CHILE, 2001</figcaption>
+</figure>
+<figure>
+	<img src="Guatemala.png" alt="Stairs leading to a lake with mountains in the distance">
+	<figcaption class="white">GUATEMALA, 1997</figcaption>
+</figure>
+<figure>
+	<img src="Hawaii.png" alt="A picture of an island taken from a distance">
+	<figcaption class="brwhite">HAWAII, 2010</figcaption>
+</figure>
+
+<!--2nd row (the long ones)-->
+<figure class="tall">
+	<img src="Iran.png" alt="Plants gowing in sand dunes">
+	<figcaption>IRAN, 1999</figcaption>
+</figure>
+<figure class="tall">
+	<img src="Ireland.png" alt="Rolling hills in the Irish countryside">
+	<figcaption class="brwhite">IRELAND, 2012</figcaption>
+</figure>
+<figure class="tall">
+	<img src="Italy.png" alt="An emerald green lake in the snow">
+	<figcaption class="blwhite">ITALY, 2015</figcaption>
+</figure>
+
+<!--3rd row-->
+<figure>
+	<img src="Moab-Desert.png" alt="A canyon at sunset">
+	<figcaption class="brwhite">MOAB DESERT, 2020</figcaption>
+</figure>
+<figure>
+	<img src="Rocky-Mountains.png" alt="Cliffs in the snow">
+	<figcaption>ROCKY MOUNTAINS, 2009</figcaption>
+</figure>
+<figure>
+	<img src="Switzerland.png" alt="A mountain range stretching above the clouds">
+	<figcaption class="bl">SWITZERLAND, 2014</figcaption>
+</figure>
+
+<!--4th row-->
+<figure>
+	<img src="UK.png" alt="Rolling hills in the English countryside">
+	<figcaption class="brwhite">UK, 2005</figcaption>
+</figure>
+
+<figure>
+	<img src="USA.png" alt="Wildflowers in an open field">
+	<figcaption class="white">USA, 2021</figcaption>
+</figure>
+
+<figure>
+	<img src="Wyoming.png" alt="A lake with cliffs in the background">
+	<figcaption class="white">WYOMING,2021</figcaption>
+</figure>
+<h3>For some reason the background-color attribute doesn't want to work without an h3 here. I've worked on this for 7 hours now. If this affects my grade please message me. I'm tired of dealing with this.</h3>
+</section>
+</main>
+
+<section class="contact">
+	<h2 id="contact">CONTACT</h2>
+	<p>Please fill out this form and I'll connect with you soon.</p>
+	<form>
+		<label>NAME</label><br>
+		<input required type="text" name="Name" placeholder="YOUR FULL NAME"><br>
+		<label>EMAIL</label><br>
+		<input required type="email" name="email" placeholder="ENTER YOUR EMAIL ADDRESS"><br>
+		<label>MESSAGE</label><br>
+		<input required type="text" name="message" placeholder="WHAT CAN I HELP YOU WITH?"><br>
+		<button type="submit" value="submit">SUBMIT</button>
+	</form>
+</section>
+
+<footer>COPYRIGHT 2021 TK PHOTOGRAPHY</footer>
+
+</body>
+</html>
